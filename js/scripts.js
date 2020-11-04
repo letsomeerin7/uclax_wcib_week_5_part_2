@@ -25,11 +25,11 @@ function result() {
   newStory = newStory.replace(':insertZ:',zItem);
 
   if(customName.value !== '') {
-    let name = customName.value;
+    const name = customName.value;
     newStory = newStory.replace('Abigail',name);
   }
-  if(customName.value !== '') {
-    let name = customNAme.value;
+  if(customNAme.value !== '') {
+    const name = customNAme.value;
     newStory = newStory.replace('Luke',name);
   }
 

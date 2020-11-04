@@ -1,16 +1,23 @@
 body {
   background: url(../images/starry_night.jpeg);
   background-size: cover;
+  font-family: georgia, serif;
   padding-top: 5rem;
-  color: #fff;
-}
-h1 {
-  color: #fff;
-}
-p {
   color: #fff;
 }
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
+}
+button.randomize {
+  background-color: #370154;
+  border-color: #370154;
+  color: #fff;
+  padding: 5px;
+}
+button.randomize:hover {
+  background-color: #012554;
+  border-color: #012554;
+  color: #fff;
+  padding: 5px;
 }
