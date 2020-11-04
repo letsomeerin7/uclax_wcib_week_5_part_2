@@ -1,26 +1,52 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 5, Part 2</title>
+  <title>Story Generator</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
+  <main role="main" class="container">
+    <div class="starter-template">
+      <h1>Starry Story Generator</h1>
+      <p>&emsp;</p>
+      <p class="lead">Pick some names, make your selection, and read a short story.</p>
+      <p>&emsp;</p>
+      <div>
+        <label for="customName">Character 1:</label>
+        <input id="customName" type="text" placeholder="Enter a name">
+      </div>
+      <div>
+        <label for="customNAme">Character 2:</label>
+        <input id="customNAme" type="text" placeholder="Enter another name">
+      </div>
+      <div>
+        <label for="us">US</label>
+        <input id="us" type="radio" name="usukfr" value="us">
+        <label for="uk">UK</label>
+        <input id="uk" type="radio" name="usukfr" value="uk">
+        <label for="fr">FR</label>
+        <input id="fr" type="radio" name="usukfr" value="fr">
+      </div>
+      <p>&emsp;</p>
+      <a class="btn btn-lg btn-primary randomize">Read your story</a>
+      <p>&emsp;</p>
+      <p class="story"></p>
+    </div>
 
-    <h1>Week 5, Part 2</h1>
-
-	</body>
+  </main><!-- /.container -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
 
 </html>
